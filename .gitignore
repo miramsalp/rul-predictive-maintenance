@@ -1,0 +1,17 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- Node.js / React ---
+node_modules/
+dist/
+.DS_Store
+
+# --- OS Generated ---
+Thumbs.db

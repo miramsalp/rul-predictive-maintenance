@@ -11,8 +11,8 @@ An Machine Learning application that predicts the **Remaining Useful Life (RUL)*
 
 ## Live Demo
 Click below to try the real-time dashboard:
-* **Frontend (Dashboard):** [https://rul-predictive-maintenance.vercel.app/]
-* **Backend (API Docs):** [https://nasa-engine-api.onrender.com/]/docs
+* **Frontend (Dashboard):** [Open Dashboard](https://rul-predictive-maintenance.vercel.app/)
+* **Backend (API Docs):** [View Swagger UI](https://nasa-engine-api.onrender.com/docs)
 
 > **Note on Performance:** The backend is hosted on **Render's Free Tier**, which spins down after inactivity. The **first request may take up to 1-2 minutes** to wake up the server (Cold Start). Subsequent requests will be instant. Thank you for your patience!
 

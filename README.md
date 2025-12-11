@@ -34,17 +34,19 @@ RUL Clipping (Threshold: 125).
 * **Model:** XGBoost Regressor (Benchmark winner vs. Random Forest & Decision Tree).
 * **Performance:**
     * **RMSE:** 16.78 cycles
-    * **$R^2$ Score:** ~82%
+    * **R^2 Score:** ~82%
 
-## 📂 Project Structure
+## Project Structure
 ```text
-predictive-maintenance-engine/
+rul-predictive-maintenance/
 ├── 📁 backend/              # FastAPI server & Model artifacts (.joblib)
 ├── 📁 frontend/             # React application source code
 ├── 📁 notebooks/            # Jupyter notebooks for EDA & Training
 ├── 📁 screenshots/          # Images for documentation
 └── README.md                # Project documentation
-
+```
+## Setup
+Backend 
 ```
 cd backend
 python -m venv venv
@@ -55,4 +57,10 @@ source venv/bin/activate
 
 pip install -r ../requirements.txt
 uvicorn main:app --reload
+```
+Frontend
+```
+cd frontend
+npm install
+npm run dev
 ```
